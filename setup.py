@@ -9,5 +9,8 @@ setup(
     license='MIT',
     author='Davide Abati and Andrea Palazzi',
     author_email='ndrplz@gmail.com',
-    description='Minimal class to download shared files from Google Drive.'
+    description='Minimal class to download shared files from Google Drive.',
+    install_requires=[
+        'requests',
+    ]
 )
